@@ -2,7 +2,7 @@
 const http = require('http');
 const server = require('../app');
 
-http.get('http://localhost:3000', res => {
+http.get('http://localhost:300', res => {
   console.log('Test passed! Status:', res.statusCode);
   process.exit(0);
 }).on('error', err => {
